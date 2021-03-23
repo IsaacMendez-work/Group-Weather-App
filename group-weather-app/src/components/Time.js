@@ -6,12 +6,11 @@ function Time() {
   let date = newDate.getDate()
   let month = newDate.getMonth() + 1;
   let year = newDate.getFullYear();
-  
-  console.log(year) 
+
   return (
-    <div>
-      <p>{month}-{date}-{year}</p>
-    </div>
+    <span style={{float : 'right', paddingRight : '5px'}}>
+      {month}-{date}-{year}
+    </span>
   )
 
 }
