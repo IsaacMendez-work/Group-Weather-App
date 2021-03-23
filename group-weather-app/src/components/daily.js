@@ -46,3 +46,6 @@ export default class Daily extends Component {
     )
   }
 }
+// const hidden = {
+//   visibility: 'hidden'
+// }
