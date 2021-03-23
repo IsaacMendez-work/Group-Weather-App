@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
-function Names() {
+
+function Footer() {
   const [textSwitch, setTextSwitch] = useState(true);
   return (
-    <div>
+    <div className="btn">
       <button onClick={() => setTextSwitch(!textSwitch)} type="button">
        Click
       </button>
@@ -16,7 +16,7 @@ function Greeting(props) {
   if (props.text) {
     return (
       <p>
-        Hello from April, Echu, Eyke, Jonathan, and Laura!
+        Hello from: April, Echu, Eyke Jonathan, and Laura!
       </p>
     );
   }
@@ -24,8 +24,7 @@ function Greeting(props) {
     <p>Nice to meet you!</p>
   );
 }
-ReactDOM.render(
-  <>
-    <Names />
-  </>
-  , document.getElementById("root"));
+
+
+
+export default Footer;
