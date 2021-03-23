@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Weather from './components/forecast'
+import Routes from './components/Routes';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Weather />
-  </React.StrictMode>,
+  <Routes />,
   document.getElementById('root')
 );

@@ -4,10 +4,10 @@ export default class Daily extends Component {
     super();
     this.state = {
       location: ['Yakutsk, Sakha Republic, Russia', 'Mecca, Saudi Arabia', 'Great Falls, MT', 'Tórshavn, Faroe Islands', 'San Pedro de Atacama, Chile'],
-      temp: ['-20', '98', '36', '47', '58'],
-      precipitation: ['2%', '0%', '0%', '54%', '0%'],
-      wind: ['4MPH', '11MPH', '17MPH', '10MPH', '7MPH'],
-    };
+      temp: ['-20', 98, 36, 47, 58],
+      precip: ['2%', '0%', '0%', '54%', '0%'],
+      wind: ['4MPH', '11MPH', '17MPH', '10MPH', '7MPH']
+    }
   }
   render() {
     return (
