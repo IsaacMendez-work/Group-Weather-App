@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import Time from './Time'
 import {
-  BrowserRouter as Router,
+  BrowserRouter as 
+  // eslint-disable-next-line
+  Router,
+  // eslint-disable-next-line
   Switch,
+  // eslint-disable-next-line
   Route,
   Link
 } from "react-router-dom";

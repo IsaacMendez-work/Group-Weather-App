@@ -7,7 +7,9 @@ import Wireframe from './pages/Wireframe.js'
 import {
   BrowserRouter as Router,
   Route,
+  // eslint-disable-next-line
   Switch,
+  // eslint-disable-next-line
   Link
 } from "react-router-dom";
 
