@@ -1,4 +1,4 @@
-import WeeklyStyle from '../css/WeeklyStyle.css'
+import '../css/WeeklyStyle.css'
 import storm from '../assets/storm.png'
 import snow from '../assets/snow.png'
 import rain from '../assets/rain.png'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Day from '../css/Day.css';
+// import Day from '../css/Day.css';
 import Footer from './Footer.js';
 
 
