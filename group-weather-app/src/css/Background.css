@@ -8,7 +8,6 @@
   text-align: center;
   color: white;
 }
-
 /* Changes the background to blue on all pages and removes the margin from all sides */
 body{
   margin-top: 0;
@@ -20,7 +19,6 @@ body{
   /* Padding added to display text in Daily.js */
   padding-bottom: 130px;
 }
-
 /* Footer */
 .foot {
   border-top: 5px solid white;
@@ -33,22 +31,18 @@ body{
   background-color: #49B7E8;
   text-align: center;
   padding-bottom: 110px;
-
 }
-
 /* For spacing between border and button */
 .btn{
   padding-top: 10px;
 }
-
 button {
   background: #F7EA5E;
   border: white 3px solid;
-  color: #1f80aa;
+  color: #1F80AA;
   padding: 3px;
   font-size: large;
 }
-
 button:hover {
   background-color: #B2B2B2;
 }

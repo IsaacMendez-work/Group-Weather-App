@@ -15,19 +15,19 @@ function Footer() {
 function Greeting(props) {
   if (props.text) {
     return (
-      <div>
+      <span>
      <img style={{float : 'left', width :'100px', height : 'auto', overflowWrap : 'break-word', wordWrap : 'break-word'}} src={'https://media1.giphy.com/media/l0jExU1nw7KvVtxudC/source.gif'} alt='sun rising from smiling cloud'/>
-      <p style={{color : 'white'}}>
-        Hello from: April, Echu, Eyke Jonathan, and Laura!
+      <p style={{color : 'white', paddingRight : '100px'}}>
+        Hello from April, Echu, Eyke Jonathan, and Laura!
       </p>
-      </div>
+      </span>
     );
   }
   return (
-    <div>
+    <span>
        <img style={{float : 'right', width :'100px', height : 'auto', overflowWrap : 'break-word', wordWrap : 'break-word'}} src={'https://media3.giphy.com/media/TercUvhYRPkmkDUNZk/source.gif'} alt='sun rising with cloud'/>
     <p style={{color : 'white', paddingLeft : '100px'}}>Nice to meet you!</p>
-    </div>
+    </span>
   );
 }
 
