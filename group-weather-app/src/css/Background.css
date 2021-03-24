@@ -1,0 +1,42 @@
+.background {
+    background: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg") no-repeat center fixed;
+    font-size: larger;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ;
+    text-align: center;
+  }
+  
+  /* Footing */
+  .foot {
+    display: flex;
+    border-top: 5px solid white;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    font-size: xx-large;
+  }
+  
+  /* To change font color in footer */
+  .foot p {
+    color: white;
+  }
+  
+  /* For spacing between border and button */
+  .btn {
+    padding-top: 30px;
+  }
+  
+  button {
+    background: #F7EA5E;
+    border: white 3px solid;
+    color: #1F80AA;
+    padding: 10px;
+    font-size: x-large;
+  }
+  
+  button:hover {
+    background-color: #B2B2B2;
+  }
