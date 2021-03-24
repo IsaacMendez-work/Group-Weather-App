@@ -3,7 +3,7 @@ import Home from './Home'
 import Daily from './Daily'
 import Weekly from './Weekly'
 import Navbar from './Navbar'
-import Wireframe from './Wireframe'
+import Wireframe from './iFrame'
 import {
   BrowserRouter as Router,
   Switch,
