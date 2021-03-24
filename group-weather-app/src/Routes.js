@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Home from './Home'
-import Daily from './Daily'
-import Weekly from './Weekly'
-import Navbar from './Navbar'
-import Wireframe from './Wireframe'
+import Home from './pages/Home.js'
+import Daily from './pages/Daily.js'
+import Weekly from './pages/Weekly.js'
+import Navbar from './components/Navbar.js'
+import Wireframe from './pages/Wireframe.js'
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
+  Switch,
   Link
 } from "react-router-dom";
 

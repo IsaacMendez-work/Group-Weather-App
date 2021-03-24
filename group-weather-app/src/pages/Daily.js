@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Day.css';
-import Footer from './Footer.js';
-
-
+import Footer from '../components/Footer.js'
 
 export default class Daily extends Component {
     constructor() {

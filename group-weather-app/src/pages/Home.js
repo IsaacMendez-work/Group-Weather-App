@@ -1,5 +1,5 @@
 import '../css/Background.css';
-import Footer from './Footer.js';
+import Footer from '../components/Footer.js';
 
 function Home() {
     return (
