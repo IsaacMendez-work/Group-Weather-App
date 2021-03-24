@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="btn">
       <button onClick={() => setTextSwitch(!textSwitch)} type="button">
-       Click
+       Click me!
       </button>
       <Greeting text={textSwitch} />
     </div>
@@ -13,7 +13,6 @@ function Footer() {
 }
 
 function Greeting(props) {
-  console.log(props.text);
   if (props.text) {
     return (
       <div>

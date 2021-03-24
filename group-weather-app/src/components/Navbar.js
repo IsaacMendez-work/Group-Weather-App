@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Time from './Time'
 import {
-  BrowserRouter as 
-  Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
