@@ -3,7 +3,7 @@ import storm from '../assets/storm.png'
 import snow from '../assets/snow.png'
 import rain from '../assets/rain.png'
 import sunny from '../assets/sunny.png'
-import Footer from '../components/Footer.js'
+import Footer from './Footer.js'
 
 
 function Weekly() {

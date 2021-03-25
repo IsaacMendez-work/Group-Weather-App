@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactHtmlParser, {  } from 'react-html-parser';
-import Footer from '../components/Footer.js';
+import Footer from './Footer.js';
 
 class Wireframe extends React.Component {
   render() {
