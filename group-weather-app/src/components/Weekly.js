@@ -1,10 +1,9 @@
-import '../css/WeeklyStyle.css'
+import WeeklyStyle from '../css/WeeklyStyle.css'
+import Footer from './Footer.js'
 import storm from '../assets/storm.png'
 import snow from '../assets/snow.png'
 import rain from '../assets/rain.png'
 import sunny from '../assets/sunny.png'
-import Footer from './Footer.js'
-
 
 function Weekly() {
 return (
@@ -22,13 +21,13 @@ return (
       </tr>
       <tr>
         <th>Yakutsk, Sakha Republic, Russia</th>
-        <td>High -1&#8451; | Low -13&#8451;<img alt='stormy weather' src={storm} /></td>
-        <td>High -1&#8451; | Low -13&#8451;<img alt='stormy weather' src={storm}/></td>
+        <td>High -1&#8451; | Low -13&#8451;<img alt='stormcloud' src={storm}/></td>
+        <td>High -1&#8451; | Low -13&#8451;<img alt='stormcloud' src={storm}/></td>
         <td>High -18&#8451; | Low -28&#8451;<img alt='snowflake' src={snow}/></td>
         <td>High -15&#8451; | Low -31&#8451;<img alt='snowflake' src={snow}/></td>
         <td>High -12&#8451; | Low -30&#8451;<img alt='raincloud' src={rain}/></td>
         <td>High -8&#8451; | Low -16&#8451;<img alt='raincloud' src={rain}/></td>
-        <td>High -3&#8451; | Low -17&#8451;<img alt='stormy weather' src={storm}/></td>
+        <td>High -3&#8451; | Low -17&#8451;<img alt='stormcloud' src={storm}/></td>
       </tr>
       <tr>
         <th>Mecca, Saudi Arabia</th>
@@ -71,10 +70,11 @@ return (
         <td>High 27&#8451; | Low 8&#8451;<img alt='raincloud' src={rain}/></td>
       </tr>
     </table>
-    <div className="foot"> 
+ <div className="foot">
     <Footer />
     </div>
   </div>
+  
 )
 }
 
